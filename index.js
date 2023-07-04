@@ -12,7 +12,7 @@ const { PORT } = process.env;
 conn.sync({ force: true }).then(() => {
   server.listen(PORT, () => {
     console.log(`Server running...`);
-
+ 
     const insumos = [
       {categoria:"Alimentos", nombre:"ACIDO ASCORBICO", precio:9.2, stock: 9000, proveedor:"LG", unidad:"kg", descripcion:"-", imgUrl:"-"},
       {categoria:"Alimentos", nombre:"ACIDO CITRICO ANHIDRO", precio:4.2, stock: 1, proveedor:"LG", unidad:"-", descripcion:"-", imgUrl:"-"},

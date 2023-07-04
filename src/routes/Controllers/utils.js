@@ -39,7 +39,7 @@ async function crearReceta(nombre, insumos) {
 
 const json = [
     {
-      name: 'AGUA ESENCIAL S/G 2000',
+      name: 'AGUA MINERAL 2000',
       insumos: [
         {
           id: 26,
@@ -91,7 +91,7 @@ const json = [
       ],
     },
     {
-      name: 'AGUA ESENCIAL C/G 2000',
+      name: 'AGUA MINERAL 2500',
       insumos: [
         {
           id: 26,
@@ -154,7 +154,7 @@ const json = [
       ],
     },
     {
-      name: 'AGUA ESENCIAL S/G 600',
+      name: 'AGUA MINERAL 500',
       insumos: [
         {
           id: 27,
@@ -207,7 +207,7 @@ const json = [
       ],
     },
     {
-      name: 'AGUA ESENCIAL C/G 600',
+      name: 'AGUA MINERAL 300',
       insumos: [
         {
           id: 38,
@@ -270,7 +270,7 @@ const json = [
       ],
     },
     {
-      name: 'SODA SIFON 2000',
+      name: 'BIDÓN 3000',
       insumos: [
         {
           id: 43,
@@ -328,7 +328,7 @@ const json = [
       ],
     },
     {
-      name: 'BIDIÓN 6000',
+      name: 'SIFÓN 2000',
       insumos: [
         {
           id: 35,
@@ -379,7 +379,7 @@ const json = [
       ],
     },
     {
-      name: 'NET NARANJA 2250',
+      name: 'COLA 2250',
       insumos: [
         {
           id: 5,
@@ -478,7 +478,7 @@ const json = [
       ],
     },
     {
-      name: 'NET POMELO 2250',
+      name: 'NARANJA 2000',
       insumos: [
         {
           id: 5,
@@ -601,7 +601,7 @@ const json = [
       ],
     },
     {
-      name: 'NET COLA 2250',
+      name: 'MANDARINA',
       insumos: [
         {
           id: 5,
@@ -700,7 +700,7 @@ const json = [
       ],
     },
     {
-      name: 'NET LIMA LIMÓN x 2250cc',
+      name: 'PERA 3000',
       insumos: [
         {
           id: 5,

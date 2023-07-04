@@ -13,8 +13,8 @@ const userExtractor = require("./middleware/userExtractor.js");
 const router = Router();
 
 router.use("/insumo", userExtractor, insumo);
-router.use("/usuario", userExtractor, usuario);
-router.use("/users", userExtractor, users);
+router.use("/usuario", usuario);
+router.use("/users", users);
 router.use("/receta", userExtractor, receta);
 router.use("/proveedor", userExtractor, proveedor);
 router.use("/remito", userExtractor, remito);

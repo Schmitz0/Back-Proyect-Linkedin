@@ -17,7 +17,7 @@ module.exports = (sequelize) => {
       },
       imgUrl: {
         type: DataTypes.TEXT,
-        defaultValue: 'https://www.aguaesencial.com/assets/images/soda.png',
+        defaultValue: 'https://img.freepik.com/vector-premium/botella-vidrio-bebida-gaseosa-icono-cola-dibujos-animados_53562-16150.jpg',
       },
     },
     {

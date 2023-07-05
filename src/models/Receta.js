@@ -17,7 +17,7 @@ module.exports = (sequelize) => {
       },
       imgUrl: {
         type: DataTypes.TEXT,
-        defaultValue: 'https://img.freepik.com/vector-premium/botella-vidrio-bebida-gaseosa-icono-cola-dibujos-animados_53562-16150.jpg',
+        defaultValue: 'https://www.sedovin.com/img/cms/Blog/Blog/5%20Aguas%20m%C3%A1s%20caras/Imagen%207.jpg',
       },
     },
     {

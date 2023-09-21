@@ -803,4 +803,4 @@ async function crearReceta(nombre, insumos) {
 //   ];
   
 
-module.exports = { crearReceta, json, updateInsumo, generateToken };
+module.exports = { crearReceta, updateInsumo, generateToken };

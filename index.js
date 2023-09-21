@@ -2,11 +2,11 @@ require('dotenv').config();
 const bcrypt = require('bcrypt');
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
-const { Receta } = require('./src/db.js');
-const { Insumo } = require('./src/db.js');
-const { Proveedor } = require('./src/db.js');
-const { Usuario } = require("./src/db.js")
-const { crearReceta, json } = require("./src/routes/Controllers/utils.js")
+// const { Receta } = require('./src/db.js');
+// const { Insumo } = require('./src/db.js');
+// const { Proveedor } = require('./src/db.js');
+// const { Usuario } = require("./src/db.js")
+// const { crearReceta } = require("./src/routes/Controllers/utils.js")
 const { PORT } = process.env;
 
 conn.sync({ force: false }).then(() => {
